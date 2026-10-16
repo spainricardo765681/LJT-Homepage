@@ -1,6 +1,8 @@
 name: CI check
 
 on:
+  push:
+    branches: [ci-check]
   workflow_dispatch:
 
 permissions:
